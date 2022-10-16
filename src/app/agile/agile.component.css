@@ -1,0 +1,44 @@
+.container {
+    border:grey; 
+    border-width:5px; 
+    border-style:solid;
+    width: 400px;
+    height:700px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.logo{
+    
+    margin-left:20px;
+    margin-top: 20px;
+    height:30px;
+
+}
+
+.banner{
+    margin-left: 10px;
+    float: right;
+    height: 300px;
+    width: 330px;
+    border-radius: 50%;
+}
+
+h2{ 
+    margin:30px;
+    margin-left: 15px;
+    font-size:90px;
+    color: orange;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10;
+    line-height: 50px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.two{
+    padding-top: 300px;
+}
+

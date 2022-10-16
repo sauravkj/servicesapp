@@ -1,0 +1,11 @@
+<div class="div">
+      <!-- {{title|uppercase}} -->
+    <!-- {{today|date:'fullDate'}} -->
+    <!-- {{today|date:'dd/mm/yyyy'}} -->
+    <!-- {{today|date:'MMM'|uppercase}} -->
+
+    <h4>User id: {{user.id}}</h4>
+    <h4>Name: {{user.name|custompipe:user.name}}</h4>
+    <h4>Salary: {{user.salary|currency:'INR'}}</h4>
+    <h4>Year of birth: {{user.DOB|date:"yyyy"}}</h4>
+</div>
